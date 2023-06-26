@@ -13,7 +13,7 @@ export function RootCmp() {
             <AppHeader />
             <main className='main-layout'>
                <Routes>
-                  <Route path='/' element={<AppBody />} />
+                  <Route path='/portfolio' element={<AppBody />} />
                </Routes>
             </main>
          </section>
