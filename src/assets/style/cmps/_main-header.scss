@@ -1,0 +1,17 @@
+.main-nav {
+   position: fixed;
+   background-color: $clr2;
+   width: 100%;
+   z-index: 2;
+   .nav-container {
+      position: relative;
+      padding-left: 0;
+      display: flex;
+      gap: 2rem;
+      padding: 0 2rem;
+      font-weight: bold;
+      li:hover {
+         text-decoration: underline;
+      }
+   }
+}

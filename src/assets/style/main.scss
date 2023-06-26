@@ -1,0 +1,18 @@
+// setups
+@import 'setup/functions';
+@import 'setup/mixins';
+@import 'setup/typography';
+@import 'setup/variables';
+
+// basics
+@import 'basics/base';
+@import 'basics/helpers';
+@import 'basics/layout';
+
+// cmps
+@import 'cmps/main-header';
+@import 'cmps/app-body';
+@import './cmps/root-cmp';
+@import './cmps/skills';
+@import './cmps/projects.section';
+@import './cmps/img-carousel';

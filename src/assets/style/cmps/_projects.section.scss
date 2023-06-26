@@ -1,0 +1,90 @@
+.projects-section {
+   .projects-title {
+      position: relative;
+      font-size: 4rem;
+      margin-block-start: 4rem;
+      margin-block-end: 4rem;
+   }
+
+   .project-card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-block-end: 14rem;
+      .project-info {
+         width: 100%;
+         max-width: rem(600px);
+         justify-self: center;
+      }
+
+      p {
+         font-size: 1rem;
+      }
+
+      h2 {
+         position: relative;
+         font-size: 2.2rem;
+         margin-block-end: 0.5rem;
+      }
+   }
+
+   .project-btns-container {
+      display: flex;
+      gap: 1rem;
+      margin-block-start: 0.5rem;
+   }
+
+   .try-live-btn {
+      padding: 0.5rem 1rem;
+      background-color: $clr1;
+      color: #fff;
+      border: none;
+      border-radius: 0.3rem;
+      transition: 0.2s ease-in-out;
+
+      &:hover {
+         background-color: darken($color: $clr1, $amount: 5);
+      }
+   }
+
+   .github-btn {
+      padding: 0.4rem 1rem;
+      background-color: transparent;
+      border: solid 2px $clr1;
+      border-radius: 0.3rem;
+      transition: 0.2s ease-in-out;
+   }
+
+   .project-tag{
+      background-color: $clr1;
+      width: fit-content;
+      color: white;
+      padding: 0.4rem 0.5rem;
+      border-radius: 0.2rem;
+      margin-block-end: 0.5rem;
+   }
+}
+
+
+@media (max-width: 1450px){
+   .project-card{
+      flex-direction: column;
+      
+      .project-btns-container{
+         margin-block-end: 2rem;
+      }
+
+   }
+}
+
+@media (max-width: 600px){
+   .project-info {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      overflow-wrap: normal;
+   }
+   .carousel-container{
+      width: 100% !important;
+   }
+}

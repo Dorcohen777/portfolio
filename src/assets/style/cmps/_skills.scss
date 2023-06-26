@@ -1,0 +1,88 @@
+.skills-container {
+   h2 {
+      position: relative;
+      font-size: 4rem;
+      margin-block-start: 4rem;
+      margin-block-end: 1rem;
+   }
+
+   .skills-icons-container {
+      width: 100%;
+      padding: 3rem 0;
+      flex-wrap: wrap;
+      div:first-child {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         margin-block-end: 5rem;
+      }
+
+      div:last-child {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+      }
+
+      i {
+         font-size: rem(70px);
+         transition: 0.2s ease;
+         &:hover {
+            transform: scale(1.5);
+         }
+      }
+   }
+}
+
+// animation
+.animate-skill {
+   animation-name: skillAnimate;
+   animation-duration: 5s;
+   animation-timing-function: ease-in-out;
+}
+
+@keyframes skillAnimate {
+   0% {
+      transform: scale(1);
+      box-shadow: none;
+   }
+
+   50% {
+      transform: scale(1.2);
+   }
+
+   100% {
+      transform: scale(1);
+      box-shadow: none;
+   }
+}
+
+.devicon-html5-plain-wordmark,
+.devicon-css3-plain-wordmark,
+.devicon-javascript-plain,
+.devicon-nodejs-plain-wordmark,
+.devicon-mongodb-plain-wordmark,
+.devicon-react-original-wordmark,
+.devicon-jquery-plain-wordmark,
+.devicon-vuejs-plain-wordmark,
+.devicon-angularjs-plain,
+.devicon-sass-original,
+.devicon-wordpress-plain-wordmark {
+   background-color: transparent;
+}
+
+// Media query
+@media (max-width: 500px) {
+   .skills-icons-container {
+      div:first-child {
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: column;
+      }
+
+      div:last-child {
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: column;
+      }
+   }
+}
