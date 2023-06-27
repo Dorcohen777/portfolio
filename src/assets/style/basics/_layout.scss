@@ -1,6 +1,6 @@
 .main-layout{
     display: grid;
-    grid-template-columns: 120px 1fr 120px;
+    grid-template-columns: 220px 1fr 220px;
 
     > * {
         grid-column: 2;

@@ -25,8 +25,12 @@ export function AppBody() {
             </p>
             <div className='hero-actions-container'>
                <button className='pointer'>Download CV</button>
+               <a target='_blank' href="https://www.linkedin.com/in/dor-cohen-618745225/">
                <img className='pointer' title='Linkedin' src={linkedinImg} alt='linkedin-logo' />
+               </a>
+               <a target='_blank' href="https://github.com/Dorcohen777">
                <img className='pointer' title='GitHub' src={gitHub} alt='gitHub-logo' />
+               </a>
             </div>
             
          </div>
