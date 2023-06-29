@@ -22,19 +22,19 @@ export function AppHeader() {
    return (
       <nav
          className='main-nav'
-         style={{ backgroundColor: navStyle, color: fontColor }}
+         style={{ backgroundColor: navStyle }}
       >
          <h2>Dor.c</h2>
-         <ul className='nav-container flex align-center clear-style  '>
+         <ul className='nav-container flex align-center clear-style'>
             <li className='pointer'>
                {' '}
-               <a href='#projects'>Projects </a>
+               <a href='#projects' style={{color: fontColor}}>Projects </a>
             </li>
             <li className='pointer'>
-               <a href='#about'>About </a>
+               <a href='#about' style={{color: fontColor}}>About </a>
             </li>
             <li className='pointer'>
-               <a href={cv} download='cv-dor-cohen.docx'>
+               <a href={cv} download='cv-dor-cohen.docx' style={{color: fontColor}}>
                   Download CV
                </a>
             </li>
