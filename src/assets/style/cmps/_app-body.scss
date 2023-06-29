@@ -106,7 +106,7 @@
    }
 }
 
-@media (max-width: 1070px) {
+@media (max-width: 1075px) {
    .hero-container {
       display: flex;
       flex-direction: column;
@@ -118,6 +118,9 @@
    }
    .hero-shape {
       display: none;
+   }
+   .hero-img{
+      max-width: 280px;
    }
 }
 

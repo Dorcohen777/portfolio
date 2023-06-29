@@ -1,8 +1,16 @@
 .main-nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
    position: fixed;
    background-color: $clr2;
    width: 100%;
    z-index: 2;
+   color: white;
+   h2 {
+      padding-left: 1rem;
+   }
    .nav-container {
       position: relative;
       padding-left: 0;

@@ -7,10 +7,10 @@ import arrSvg from '../assets/img/arrsvg.svg'
 
 export function AppBody() {
    return (
-      <section className='hero-container'>
-         <div className='hero-section'>
+      <section className='hero-container' id='about'>
+         <div className='hero-section' >
             <img src={shape} alt='shape' className='hero-shape' />
-            <h1>Hey, i'm Dor.</h1>
+            <h1 >Hey, i'm Dor.</h1>
             <h2>Full-Stack Web Developer & Digital Marketing Specialist</h2>
             <p>
                I specialize in website development with advanced technologies

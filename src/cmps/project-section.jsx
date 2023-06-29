@@ -21,10 +21,10 @@ export function Projects() {
    if (projects.length === 0) return <div>loading...</div> // Check the length of projects array instead of the truthiness
 
    return (
-      <section className='projects-section'>
+      <section className='projects-section' id='projects'>
          <h2 className='projects-title underline-style'>Projects.</h2>
 
-         <div className='projects-container'>
+         <div className='projects-container' >
             {projects.map((project, idx) => {
                return (
                   <article key={idx} className='project-card'>
