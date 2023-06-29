@@ -24,7 +24,7 @@ export function AppHeader() {
          className='main-nav'
          style={{ backgroundColor: navStyle }}
       >
-         <h2>Dor.c</h2>
+         <h2 style={{color: fontColor}}>Dor.c</h2>
          <ul className='nav-container flex align-center clear-style'>
             <li className='pointer'>
                {' '}
