@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c6d674e2.css",
-    "main.js": "/portfolio/static/js/main.298e4363.js",
+    "main.css": "/portfolio/static/css/main.6899559a.css",
+    "main.js": "/portfolio/static/js/main.d4435238.js",
     "static/media/me.jpeg": "/portfolio/static/media/me.f0d52f23c422161dcf9a.jpeg",
     "static/media/github.png": "/portfolio/static/media/github.4477f8b8c563df19f664.png",
     "static/media/cv.docx": "/portfolio/static/media/cv.22f9397aee7fff43331e.docx",
@@ -9,11 +9,11 @@
     "static/media/noun-polka-dots-5067076.svg": "/portfolio/static/media/noun-polka-dots-5067076.b4f7e2208c2b7778202107731de4e069.svg",
     "static/media/arrsvg.svg": "/portfolio/static/media/arrsvg.5e514612a3cc39d974e4d7ccbbb17bca.svg",
     "index.html": "/portfolio/index.html",
-    "main.c6d674e2.css.map": "/portfolio/static/css/main.c6d674e2.css.map",
-    "main.298e4363.js.map": "/portfolio/static/js/main.298e4363.js.map"
+    "main.6899559a.css.map": "/portfolio/static/css/main.6899559a.css.map",
+    "main.d4435238.js.map": "/portfolio/static/js/main.d4435238.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6d674e2.css",
-    "static/js/main.298e4363.js"
+    "static/css/main.6899559a.css",
+    "static/js/main.d4435238.js"
   ]
 }
