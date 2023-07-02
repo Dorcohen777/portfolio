@@ -1,8 +1,3 @@
-// project title
-// project tech
-// project links - github, demo
-// more info btn
-// images
 
 const projectsData = [
    {
