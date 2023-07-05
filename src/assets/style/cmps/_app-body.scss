@@ -19,6 +19,7 @@
          max-height: rem(280px);
          top: 110%;
          left: -28%;
+         color: $clr3;
       }
 
       .hero-actions-container {
@@ -76,6 +77,7 @@
       right: 50%;
       top: 85%;
       width: rem(50px);
+      color: $clr3;
    }
 }
 
@@ -119,8 +121,11 @@
    .hero-shape {
       display: none;
    }
-   .hero-img{
+   .hero-img {
       max-width: 280px;
+   }
+   .lottie-container {
+      display: none;
    }
 }
 
@@ -138,10 +143,9 @@
          }
       }
    }
-
 }
 
-.download-link-body{
+.download-link-body {
    text-decoration: none;
    color: $clr1;
 }

@@ -34,7 +34,7 @@ export function Projects() {
                      <div className='project-info'>
                         <p className='project-tag'>{project.tag}</p>
                         <h2>{project.title}</h2>
-                        <p>{addSpace(project.description)}</p>
+                        <p className='project-desc'>{addSpace(project.description)}</p>
                         <div className='project-btns-container'>
                            <a href={project.links[0]} target='_blank'>
                               <button className='try-live-btn pointer hover-effect'>

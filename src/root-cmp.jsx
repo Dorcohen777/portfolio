@@ -5,6 +5,7 @@ import { AppBody } from './cmps/app-body'
 import { Skills } from './cmps/skills-section'
 import { AppHeader } from './cmps/app-header'
 import { Projects } from './cmps/project-section'
+import { Contact } from './cmps/contact'
 
 export function RootCmp() {
    return (
@@ -19,6 +20,7 @@ export function RootCmp() {
          </section>
          <Skills />
          <Projects/>
+         <Contact/>
       </div>
    )
 }

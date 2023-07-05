@@ -10,7 +10,7 @@ export function AppHeader() {
          const isScroll = window.scrollY > 0
          setScrolled(isScroll)
          setNavStyle(scrolled ? '#2965F1' : '#ffffff')
-         setFontColor('#000000')
+         setFontColor('#0f2046')
       }
 
       window.addEventListener('scroll', handleScroll)
