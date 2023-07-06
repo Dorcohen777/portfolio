@@ -24,6 +24,7 @@ export function Skills() {
             <i className={`devicon-html5-plain-wordmark colored `} title="Html"></i>
             <i className='devicon-css3-plain-wordmark colored' title="Css"></i>
             <i className='devicon-javascript-plain colored' title="Javascript"></i>
+            <i class="devicon-php-plain colored" title='php'></i>
             <i className='devicon-nodejs-plain-wordmark colored' title="Node.js"></i>
             <i className='devicon-mongodb-plain-wordmark colored' title="MongoDB"></i>
          </div>

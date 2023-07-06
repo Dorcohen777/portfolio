@@ -1,4 +1,6 @@
 .skills-container {
+   position: relative;
+
    h2 {
       position: relative;
       font-size: 4rem;
@@ -8,7 +10,8 @@
    }
 
    .skills-icons-container {
-      width: 100%;
+      position: relative;
+      overflow: hidden;
       padding: 3rem 0;
       flex-wrap: wrap;
       div:first-child {
@@ -31,6 +34,39 @@
             transform: scale(1.5);
          }
       }
+
+   //    &::before, ::after {
+   //       content: '';
+   //       position: absolute;
+   //       background: linear-gradient(purple, transparent);
+   //       z-index: -1;
+   //    }
+
+   //    &::before {
+   //       top: -10px;
+   //       left: -10px;
+   //       right: -10px;
+   //       bottom: -10px;
+   //       transform-origin: center;
+   //       animation: borderAnimate 15s infinite linear;
+   //    }
+
+   //    &::after {
+   //       top: 4px;
+   //       left: 4px;
+   //       right: 4px;
+   //       bottom: 4px;
+   //       background-color: white;
+   //    }
+   // }
+   // @keyframes borderAnimate {
+   //    0% {
+   //       transform: rotate(0deg);
+   //    }
+
+   //    100% {
+   //       transform: rotate(360deg);
+   //    }
    }
 }
 
