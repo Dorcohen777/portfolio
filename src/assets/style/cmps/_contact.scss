@@ -27,3 +27,20 @@
       color: $clr3;
    }
 }
+
+@media (max-width: 1125px) {
+   .lottie-container {
+      display: none;
+   }
+}
+
+@media (max-width: 600px){
+   .contact-container{
+      h2{
+         font-size: 2rem;
+      }
+      p{
+         font-size: 1.3rem;
+      }
+   }
+}
