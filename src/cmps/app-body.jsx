@@ -11,7 +11,7 @@ export function AppBody() {
          <div className='hero-section'>
             <img src={shape} alt='shape' className='hero-shape' />
             <h1>Hey, i'm Dor.</h1>
-            <h2>Full-Stack Web Developer & Digital Marketing Specialist</h2>
+            <h2>Full-Stack Web Developer</h2>
             <p>
                I specialize in website development with advanced technologies
                and programming languages, digital marketing, user experience and
