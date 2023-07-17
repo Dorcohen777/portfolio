@@ -8,7 +8,6 @@ export function Projects() {
    const [projects, setProjects] = useState([]) // Initialize projects as an empty array
 
    useEffect(() => {
-      console.log(mainService.projectsData)
       setProjects(mainService.projectsData)
    }, [])
 
@@ -50,9 +49,9 @@ export function Projects() {
                            )}
                         </div>
                         <div className='tech-container'>
-                           {project.tech.map((skill) => {
+                           {project.tech.map((skill, idx) => {
                               return (
-                                 <div className='tech-inner-container'>
+                                 <div className='tech-inner-container' key={idx}>
                                     {skill === 'react' && (
                                        <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg' />
                                     )}

@@ -12,7 +12,6 @@ export function ImgCarousel({ img }) {
       setSlide(slide === 0 ? img.length - 1 : slide - 1)
    }
 
-   console.log('img', img)
 
    return (
       <section className='carousel-container'>
