@@ -17,6 +17,22 @@ const projectsData = [
       tech: ['react', 'html', 'javascript', , 'mongodb', 'sass'],
    },
    {
+      tag: 'STOCK MARKET TRACKING PLATFORM',
+      title: 'TradeSmart',
+      description:
+         'The Personal Trading Performance Tracker is a comprehensive web application designed to empower traders to track and analyze their profit/loss (P/L), win rate and more data. This project serves as a valuable tool for traders to gain insights into their trading performance and make informed decisions.',
+      links: [
+         'https://tradesmart1.netlify.app/',
+         'https://github.com/Dorcohen777/TradeSmart',
+      ],
+      imgs: [
+         'https://i.postimg.cc/Hs68MpQQ/smart1.jpg',
+         'https://i.postimg.cc/jS9W8Z32/smart3.jpg',
+         'https://i.postimg.cc/XYXGcT8t/smart2.jpg',
+      ],
+      tech: ['react', 'html', 'javascript', 'sass'],
+   },
+   {
       tag: 'MULTI APP',
       title: 'AppSus',
       description:
@@ -86,21 +102,6 @@ const projectsData = [
       imgs: [
          'https://i.postimg.cc/3JnqV3mn/meme1.jpg',
          'https://i.postimg.cc/vBsXDK54/meme2.jpg',
-      ],
-   },
-   {
-      tag: 'TRACKING PLATFORM',
-      title: 'TradeTrackZ',
-      description:
-         'The Personal Trading Performance Tracker is a comprehensive web application designed to empower traders to track and analyze their profit/loss (P/L) and win rate. This project serves as a valuable tool for traders to gain insights into their trading performance and make informed decisions.',
-      tech: ['react', 'html', 'css', 'javascript'],
-      links: [
-         'https://tradetrackz.netlify.app/',
-         'https://github.com/Dorcohen777/TradetrackZ',
-      ],
-      imgs: [
-         'https://i.postimg.cc/q7ws1v9G/trade1.jpg',
-         'https://i.postimg.cc/mDrQJG4W/trade2.jpg',
       ],
    },
    {
