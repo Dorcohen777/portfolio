@@ -22,7 +22,7 @@ const projectsData = [
       description:
          'The Personal Trading Performance Tracker is a comprehensive web application designed to empower traders to track and analyze their profit/loss (P/L), win rate and more data. This project serves as a valuable tool for traders to gain insights into their trading performance and make informed decisions.',
       links: [
-         'https://tradesmart1.netlify.app/',
+         'https://dorcohen777.github.io/TradeSmart',
          'https://github.com/Dorcohen777/TradeSmart',
       ],
       imgs: [
