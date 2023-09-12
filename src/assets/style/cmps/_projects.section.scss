@@ -60,6 +60,15 @@
       transition: 0.2s ease-in-out;
    }
 
+   .youtube-btn {
+      padding: 0.4rem 1rem;
+      background-color: rgba(242, 70, 70, 0.849);
+      color: white;
+      border: none;
+      border-radius: 0.3rem;
+      transition: 0.2s ease-in-out;
+   }
+
    .project-tag {
       background-color: $clr1;
       width: fit-content;

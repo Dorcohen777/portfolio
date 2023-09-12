@@ -8,6 +8,7 @@ const projectsData = [
       links: [
          'https://trelluxe.onrender.com/',
          'https://github.com/shaulrosenberg/trelluxe',
+         'https://www.youtube.com/watch?v=toopP2GD5u4&ab_channel=onio907',
       ],
       imgs: [
          'https://i.postimg.cc/tTFLMc9h/trellux1.jpg',
@@ -24,6 +25,7 @@ const projectsData = [
       links: [
          'https://dorcohen777.github.io/TradeSmart',
          'https://github.com/Dorcohen777/TradeSmart',
+         'https://www.youtube.com/watch?v=EH1JQtNMiu8&ab_channel=onio907',
       ],
       imgs: [
          'https://i.postimg.cc/Hs68MpQQ/smart1.jpg',

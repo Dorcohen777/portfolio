@@ -47,6 +47,11 @@ export function Projects() {
                                  </button>
                               </a>
                            )}
+                           {project.links[2] && (
+                              <a href={project.links[2]} target='_blank'>
+                                 <button className='youtube-btn pointer hover-effect'>Watch In Youtube</button>
+                              </a>
+                           )}
                         </div>
                         <div className='tech-container'>
                            {project.tech.map((skill, idx) => {
