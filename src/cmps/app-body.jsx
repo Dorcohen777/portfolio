@@ -5,12 +5,17 @@ import gitHub from '../assets/img/github.png'
 import shape from '../assets/img/noun-polka-dots-5067076.svg'
 import arrSvg from '../assets/img/arrsvg.svg'
 import cv from '../assets/cv.docx'
+import {motion} from 'framer-motion'
+
 export function AppBody() {
    return (
       <section className='hero-container' id='about'>
          <div className='hero-section'>
             <img src={shape} alt='shape' className='hero-shape' />
-            <h1 className='animate__animated animate__fadeInDown'>Hey, i'm Dor.</h1>
+            <motion.h1 className='animate__animated animate__fadeInDown' animate={{x: 10}}>
+            Hey, i'm Dor.
+            </motion.h1>
+            {/* <h1 className='animate__animated animate__fadeInDown'>Hey, i'm Dor.</h1> */}
             <h2>Full-Stack Web Developer</h2>
             <p>
                I specialize in website development with advanced technologies

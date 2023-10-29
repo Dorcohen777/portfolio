@@ -1,5 +1,5 @@
-import { useEffect, useRef, useState } from "react"
-
+import { useEffect, useRef, useState } from 'react'
+import { motion } from 'framer-motion'
 export function Skills() {
    const myRef = useRef()
    // const [isVisible, setIsVisible] = useState(null)
@@ -16,29 +16,69 @@ export function Skills() {
 
    return (
       <section className='skills-container'>
-         <h2 className="underline-style">Skills.</h2>
+         <motion.h2
+            className='underline-style'
+            variants={{
+               hidden: { opacity: 0, y: 75 },
+               visible: { opacity: 1, y: 0 },
+            }}
+            initial={'hidden'}
+            whileInView={'visible'}
+            transition={{duration: 0.5, delay: 0.25}}
+         >
+            Skills.
+         </motion.h2>
+         {/* <h2 className="underline-style">Skills.</h2> */}
 
-      <div className="skills-icons-container">
-         <div>
-            
-            <i className={`devicon-html5-plain-wordmark colored `} title="Html"></i>
-            <i className='devicon-css3-plain-wordmark colored' title="Css"></i>
-            <i className='devicon-javascript-plain colored' title="Javascript"></i>
-            <i className="devicon-php-plain colored" title='php'></i>
-            <i className='devicon-nodejs-plain-wordmark colored' title="Node.js"></i>
-            <i className='devicon-mongodb-plain-wordmark colored' title="MongoDB"></i>
+         <div className='skills-icons-container'>
+            <div>
+               <i
+                  className={`devicon-html5-plain-wordmark colored `}
+                  title='Html'
+               ></i>
+               <i
+                  className='devicon-css3-plain-wordmark colored'
+                  title='Css'
+               ></i>
+               <i
+                  className='devicon-javascript-plain colored'
+                  title='Javascript'
+               ></i>
+               <i className='devicon-php-plain colored' title='php'></i>
+               <i
+                  className='devicon-nodejs-plain-wordmark colored'
+                  title='Node.js'
+               ></i>
+               <i
+                  className='devicon-mongodb-plain-wordmark colored'
+                  title='MongoDB'
+               ></i>
+            </div>
+            <div>
+               <i
+                  className='devicon-jquery-plain-wordmark colored'
+                  title='jQuery'
+               ></i>
+               <i
+                  className='devicon-vuejs-plain-wordmark colored'
+                  title='Vue'
+               ></i>
+               <i
+                  className='devicon-react-original-wordmark colored'
+                  title='React'
+               ></i>
+               <i
+                  className='devicon-typescript-plain colored'
+                  title='Typescript'
+               ></i>
+               <i
+                  className='devicon-angularjs-plain colored'
+                  title='Angular'
+               ></i>
+               <i className='devicon-sass-original colored' title='Sass'></i>
+               <i className='devicon-wordpress-plain-wordmark colored'></i>
+            </div>
          </div>
-         <div>
-            <i className='devicon-jquery-plain-wordmark colored' title="jQuery"></i>
-            <i className='devicon-vuejs-plain-wordmark colored' title="Vue"></i>
-            <i className='devicon-react-original-wordmark colored' title="React"></i>
-            <i className="devicon-typescript-plain colored" title='Typescript'></i>
-            <i className='devicon-angularjs-plain colored' title="Angular"></i>
-            <i className='devicon-sass-original colored' title="Sass"></i>
-            <i className="devicon-wordpress-plain-wordmark colored"></i>
-         </div>
-      </div>
-
       </section>
    )
 }
