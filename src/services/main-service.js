@@ -35,6 +35,31 @@ const projectsData = [
       tech: ['react', 'html', 'javascript', 'sass'],
    },
    {
+      tag: 'WEBSITE',
+      title: 'Medton-Hedim: Russian Health and Wellness Website',
+      description:
+         'I designed and built a website for a company i work, specializing in hearing rehabilitation, featuring an SEO-optimized structure and a clean, professional template.',
+      tech: ['html', 'css', 'wordpress'],
+      links: ['https://medton-hedim.ru/'],
+      imgs: [
+         'https://i.postimg.cc/fyvQLFyC/medru1.jpg',
+         'https://i.postimg.cc/T2j6Cy0b/medru2.jpg',
+      ],
+   },
+   {
+      tag: 'WEBSITE',
+      title: 'Medton Hedim: Kids Hearing and Rehabilitation Website',
+      description:
+         'designed and built a comprehensive website for a company focused on hearing and rehabilitation in children, providing them with a platform to educate and inform their audience. The website features an optimized SEO structure and a clean, visually appealing template.',
+      tech: ['html', 'css', 'wordpress'],
+      links: ['https://kids.myhearing.co.il/'],
+      imgs: [
+         'https://i.postimg.cc/sfKZb2DB/medk1.jpg',
+         'https://i.postimg.cc/pXTnvtps/medk2.jpg',
+         'https://i.postimg.cc/kXpRXhSq/medk3.jpg',
+      ],
+   },
+   {
       tag: 'MULTI APP',
       title: 'AppSus',
       description:
@@ -65,32 +90,32 @@ const projectsData = [
          'https://i.postimg.cc/7YCyDC9f/mine2.jpg',
       ],
    },
-   {
-      tag: 'WEBSITE',
-      title: 'Medton-Hedim russian website',
-      description:
-         'I designed and built a website for a company i work, specializing in hearing rehabilitation, featuring an SEO-optimized structure and a clean, professional template.',
-      tech: ['html', 'css', 'wordpress'],
-      links: ['https://medton-hedim.ru/'],
-      imgs: [
-         'https://i.postimg.cc/fyvQLFyC/medru1.jpg',
-         'https://i.postimg.cc/T2j6Cy0b/medru2.jpg',
-      ],
-   },
+   // {
+   //    tag: 'WEBSITE',
+   //    title: 'Medton-Hedim russian website',
+   //    description:
+   //       'I designed and built a website for a company i work, specializing in hearing rehabilitation, featuring an SEO-optimized structure and a clean, professional template.',
+   //    tech: ['html', 'css', 'wordpress'],
+   //    links: ['https://medton-hedim.ru/'],
+   //    imgs: [
+   //       'https://i.postimg.cc/fyvQLFyC/medru1.jpg',
+   //       'https://i.postimg.cc/T2j6Cy0b/medru2.jpg',
+   //    ],
+   // },
    ,
-   {
-      tag: 'WEBSITE',
-      title: 'Medton-Hedim kids website',
-      description:
-         'designed and built a comprehensive website for a company focused on hearing and rehabilitation in children, providing them with a platform to educate and inform their audience. The website features an optimized SEO structure and a clean, visually appealing template.',
-      tech: ['html', 'css', 'wordpress'],
-      links: ['https://kids.myhearing.co.il/'],
-      imgs: [
-         'https://i.postimg.cc/sfKZb2DB/medk1.jpg',
-         'https://i.postimg.cc/pXTnvtps/medk2.jpg',
-         'https://i.postimg.cc/kXpRXhSq/medk3.jpg',
-      ],
-   },
+   // {
+   //    tag: 'WEBSITE',
+   //    title: 'Medton-Hedim kids website',
+   //    description:
+   //       'designed and built a comprehensive website for a company focused on hearing and rehabilitation in children, providing them with a platform to educate and inform their audience. The website features an optimized SEO structure and a clean, visually appealing template.',
+   //    tech: ['html', 'css', 'wordpress'],
+   //    links: ['https://kids.myhearing.co.il/'],
+   //    imgs: [
+   //       'https://i.postimg.cc/sfKZb2DB/medk1.jpg',
+   //       'https://i.postimg.cc/pXTnvtps/medk2.jpg',
+   //       'https://i.postimg.cc/kXpRXhSq/medk3.jpg',
+   //    ],
+   // },
    {
       tag: 'GAME',
       title: 'Meme Generator',

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { mainService } from '../services/main-service'
-
+import { motion } from 'framer-motion'
 // cmp
 import { ImgCarousel } from './img-carousel'
 
@@ -24,7 +24,13 @@ export function Projects() {
 
    return (
       <section className='projects-section' id='projects'>
-         <h2 className='projects-title underline-style'>Projects.</h2>
+         <motion.h2
+            className='projects-title underline-style'
+            initial={{ opacity: 0, y: -30 }}
+            whileInView={{ opacity: 1, transition: { delay: 0.8 }, y: 0 }}
+         >
+            Projects.
+         </motion.h2>
 
          <div className='projects-container'>
             {projects.map((project, idx) => {
@@ -33,7 +39,9 @@ export function Projects() {
                      <div className='project-info'>
                         <p className='project-tag'>{project.tag}</p>
                         <h2>{project.title}</h2>
-                        <p className='project-desc'>{addSpace(project.description)}</p>
+                        <p className='project-desc'>
+                           {addSpace(project.description)}
+                        </p>
                         <div className='project-btns-container'>
                            <a href={project.links[0]} target='_blank'>
                               <button className='try-live-btn pointer hover-effect'>
@@ -49,14 +57,19 @@ export function Projects() {
                            )}
                            {project.links[2] && (
                               <a href={project.links[2]} target='_blank'>
-                                 <button className='youtube-btn pointer hover-effect'>Watch In Youtube</button>
+                                 <button className='youtube-btn pointer hover-effect'>
+                                    Watch In Youtube
+                                 </button>
                               </a>
                            )}
                         </div>
                         <div className='tech-container'>
                            {project.tech.map((skill, idx) => {
                               return (
-                                 <div className='tech-inner-container' key={idx}>
+                                 <div
+                                    className='tech-inner-container'
+                                    key={idx}
+                                 >
                                     {skill === 'react' && (
                                        <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg' />
                                     )}

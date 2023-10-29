@@ -47,10 +47,7 @@ export function Skills() {
                   className='devicon-jquery-plain-wordmark colored'
                   title='jQuery'
                ></i>
-               <i
-                  className='devicon-vuejs-plain-wordmark colored'
-                  title='Vue'
-               ></i>
+              
                <i
                   className='devicon-react-original-wordmark colored'
                   title='React'
