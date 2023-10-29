@@ -2,35 +2,23 @@ import { useEffect, useRef, useState } from 'react'
 import { motion } from 'framer-motion'
 export function Skills() {
    const myRef = useRef()
-   // const [isVisible, setIsVisible] = useState(null)
-   // console.log(isVisible)
-
-   // useEffect(() => {
-   //    console.log('myref', myRef.current)
-   //    const observer = new IntersectionObserver((entries) => {
-   //       const entry = entries[0]
-   //       setIsVisible(entry.isIntersecting)
-   //    })
-   //    observer.observe(myRef.current)
-   // },[])
-
    return (
       <section className='skills-container'>
-         <motion.h2
-            className='underline-style'
-            variants={{
-               hidden: { opacity: 0, y: 75 },
-               visible: { opacity: 1, y: 0 },
-            }}
-            initial={'hidden'}
-            whileInView={'visible'}
-            transition={{duration: 0.5, delay: 0.25}}
-         >
-            Skills.
-         </motion.h2>
-         {/* <h2 className="underline-style">Skills.</h2> */}
+         <div>
+            <motion.h2
+               className='underline-style'
+               initial={{ opacity: 0, y: -30 }}
+               whileInView={{ opacity: 1, transition: { delay: 0.25 }, y: 0 }}
+            >
+               Skills.
+            </motion.h2>
+         </div>
 
-         <div className='skills-icons-container'>
+         <motion.div
+            className='skills-icons-container'
+            initial={{ opacity: 0 }}
+            whileInView={{opacity:1, transition: {delay: 0.45}}}
+         >
             <div>
                <i
                   className={`devicon-html5-plain-wordmark colored `}
@@ -78,7 +66,7 @@ export function Skills() {
                <i className='devicon-sass-original colored' title='Sass'></i>
                <i className='devicon-wordpress-plain-wordmark colored'></i>
             </div>
-         </div>
+         </motion.div>
       </section>
    )
 }
