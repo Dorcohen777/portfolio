@@ -1,4 +1,3 @@
-
 const projectsData = [
    {
       tag: 'PROJECT MANAGEMENT PLATFORM',
@@ -15,7 +14,7 @@ const projectsData = [
          'https://i.postimg.cc/d3BgqTk3/trelluxe2.jpg',
          'https://i.postimg.cc/fyZ6nvb1/trelluxe3.jpg',
       ],
-      tech: ['react', 'html', 'javascript', , 'mongodb', 'sass'],
+      tech: ['react', 'html', 'javascript', , 'mongodb', 'nodejs', 'sass'],
    },
    {
       tag: 'STOCK MARKET TRACKING PLATFORM',
@@ -23,16 +22,16 @@ const projectsData = [
       description:
          'The Personal Trading Performance Tracker is a comprehensive web application designed to empower traders to track and analyze their profit/loss (P/L), win rate and more data. This project serves as a valuable tool for traders to gain insights into their trading performance and make informed decisions.',
       links: [
-         'https://dorcohen777.github.io/TradeSmart',
+         'https://tradesmart.onrender.com/',
          'https://github.com/Dorcohen777/TradeSmart',
-         'https://www.youtube.com/watch?v=EH1JQtNMiu8&ab_channel=onio907',
+         'https://www.youtube.com/watch?v=IV3_cN8GbfA&ab_channel=onio907',
       ],
       imgs: [
          'https://i.postimg.cc/Hs68MpQQ/smart1.jpg',
          'https://i.postimg.cc/jS9W8Z32/smart3.jpg',
          'https://i.postimg.cc/XYXGcT8t/smart2.jpg',
       ],
-      tech: ['react', 'html', 'javascript', 'sass'],
+      tech: ['react', 'html', 'javascript', 'sass', 'mongodb', 'nodejs'],
    },
    {
       tag: 'WEBSITE',
@@ -90,6 +89,7 @@ const projectsData = [
          'https://i.postimg.cc/7YCyDC9f/mine2.jpg',
       ],
    },
+   ,
    // {
    //    tag: 'WEBSITE',
    //    title: 'Medton-Hedim russian website',
@@ -102,7 +102,6 @@ const projectsData = [
    //       'https://i.postimg.cc/T2j6Cy0b/medru2.jpg',
    //    ],
    // },
-   ,
    // {
    //    tag: 'WEBSITE',
    //    title: 'Medton-Hedim kids website',

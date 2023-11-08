@@ -91,6 +91,9 @@ export function Projects() {
                                     {skill === 'wordpress' && (
                                        <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain-wordmark.svg' />
                                     )}
+                                    {skill === 'nodejs' && (
+                                       <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg' />
+                                    )}
                                  </div>
                               )
                            })}
