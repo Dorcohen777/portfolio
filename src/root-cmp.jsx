@@ -10,18 +10,17 @@ import { Contact } from './cmps/contact'
 export function RootCmp() {
    return (
       <div className='main-layout'>
+         <AppHeader />
          <section className='first-section-container full'>
-            <AppHeader />
-            <main className='main-layout'>
+            <main className='main-layout '>
                <Routes>
                   <Route path='/portfolio' element={<AppBody />} />
                </Routes>
             </main>
          </section>
          <Skills />
-         <Projects/>
-         <Contact/>
-         
+         <Projects />
+         <Contact />
       </div>
    )
 }

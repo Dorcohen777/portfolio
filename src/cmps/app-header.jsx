@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import cv from '../assets/cv.docx'
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 
 export function AppHeader() {
    const [scrolled, setScrolled] = useState(false)
@@ -22,22 +22,27 @@ export function AppHeader() {
       }
    }, [])
    return (
-      <nav
-         className='main-nav'
-         style={{ backgroundColor: navStyle }}
-      >
-         <h2 style={{color: fontColor}}>Dor.c</h2>
-         
+      <nav className='main-nav ' style={{ backgroundColor: navStyle }}>
+         <h2 style={{ color: fontColor }}>Dor.c</h2>
+
          <ul className='nav-container flex align-center clear-style'>
             <li className='pointer'>
                {' '}
-               <a href='#projects' style={{color: fontColor}}>Projects </a>
+               <a href='#projects' style={{ color: fontColor }}>
+                  Projects{' '}
+               </a>
             </li>
             <li className='pointer'>
-               <a href='#about' style={{color: fontColor}}>About </a>
+               <a href='#about' style={{ color: fontColor }}>
+                  About{' '}
+               </a>
             </li>
             <li className='pointer'>
-               <a href={cv} download='cv-dor-cohen.docx' style={{color: fontColor}}>
+               <a
+                  href={cv}
+                  download='cv-dor-cohen.docx'
+                  style={{ color: fontColor }}
+               >
                   Download CV
                </a>
             </li>

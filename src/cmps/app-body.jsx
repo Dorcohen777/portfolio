@@ -13,9 +13,9 @@ export function AppBody() {
          <div className='hero-section'>
             <motion.div
                initial={{ opacity: 0 }}
-               animate={{ opacity: 1, transition: { delay: 2 } }}
+               animate={{ opacity: 1, transition: { delay: 2.5 } }}
             >
-               <img src={shape} alt='shape' className='hero-shape' />
+               {/* <img src={shape} alt='shape' className='hero-shape' /> */}
             </motion.div>
             <motion.h1
                className='animate__animated animate__fadeInDown'
@@ -86,11 +86,12 @@ export function AppBody() {
          </div>
 
          <motion.div
-            className='hero-image'
+            className='hero-image-container'
             initial={{ opacity: 0, x: 100 }}
             animate={{ opacity: 1, x: 0, transition: { delay: 2.5 } }}
          >
             <img src={heroImg} alt='hero-img' className='hero-img' />
+            <div className='hero-border'></div>
          </motion.div>
          <motion.div
             initial={{ opacity: 0 }}
