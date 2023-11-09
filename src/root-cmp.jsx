@@ -21,6 +21,7 @@ export function RootCmp() {
          <Skills />
          <Projects/>
          <Contact/>
+         
       </div>
    )
 }
