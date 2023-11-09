@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.21b759ff.css",
+    "main.css": "/portfolio/static/css/main.e98ed819.css",
     "main.js": "/portfolio/static/js/main.69e06bb4.js",
     "static/media/me.jpeg": "/portfolio/static/media/me.f0d52f23c422161dcf9a.jpeg",
     "static/media/github.png": "/portfolio/static/media/github.4477f8b8c563df19f664.png",
@@ -9,11 +9,11 @@
     "static/media/noun-polka-dots-5067076.svg": "/portfolio/static/media/noun-polka-dots-5067076.b4f7e2208c2b7778202107731de4e069.svg",
     "static/media/arrsvg.svg": "/portfolio/static/media/arrsvg.6f90a924f6339e377b950b14d0e58d48.svg",
     "index.html": "/portfolio/index.html",
-    "main.21b759ff.css.map": "/portfolio/static/css/main.21b759ff.css.map",
+    "main.e98ed819.css.map": "/portfolio/static/css/main.e98ed819.css.map",
     "main.69e06bb4.js.map": "/portfolio/static/js/main.69e06bb4.js.map"
   },
   "entrypoints": [
-    "static/css/main.21b759ff.css",
+    "static/css/main.e98ed819.css",
     "static/js/main.69e06bb4.js"
   ]
 }
