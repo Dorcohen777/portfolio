@@ -1,5 +1,6 @@
 // imgs
-import heroImg from '../assets/img/me.jpeg'
+// import heroImg from '../assets/img/me.jpeg'
+import heroImg from '../assets/img/me1.jpg'
 import linkedinImg from '../assets/img/linkedin.png'
 import gitHub from '../assets/img/github.png'
 import arrSvg from '../assets/img/arrsvg.svg'
