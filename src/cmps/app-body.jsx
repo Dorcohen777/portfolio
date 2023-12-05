@@ -106,14 +106,13 @@ export function AppBody() {
                initial={{ opacity: 0, y: 20 }}
                animate={{ opacity: 1, y: 0, transition: { delay: 1.5 } }}
             >
-               <button className='pointer'>
+               <button className='cv-btn pointer'>
                   <a
                      className='download-link-body'
                      href={cv}
                      download='cv-dor-cohen'
-                  >
-                     Download CV
-                  </a>
+                  ></a>
+                  Download CV
                </button>
                <a
                   target='_blank'
