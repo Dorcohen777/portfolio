@@ -147,7 +147,10 @@ export function AppBody() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { delay: 3 } }}
          >
-            <img src={arrSvg} alt='arrSvg' className='arr-svg animate-arrow' />
+            {/* <img src={arrSvg} alt='arrSvg' className='arr-svg animate-arrow' /> */}
+            <div className='animate-arrow-container arrow-border'>
+               <div className='animated-scroll'></div>
+            </div>
          </motion.div>
       </section>
    )

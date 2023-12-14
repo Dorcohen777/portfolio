@@ -59,9 +59,8 @@
             }
             &:hover::before {
                transform: scaleX(1);
-               
             }
-            &:hover{
+            &:hover {
                color: $clr2;
             }
          }
@@ -89,20 +88,37 @@
       clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
    }
 
-   .arr-svg {
+   .arrow-border {
       position: absolute;
       right: 50%;
       top: 85%;
-      width: rem(50px);
       color: $clr3;
    }
 }
 
 // arrow animation
-.animate-arrow {
-   animation-name: arrAnimate;
-   animation-duration: 5s;
-   animation-iteration-count: infinite;
+
+.animate-arrow-container {
+   width: rem(25px);
+   height: 3.5rem;
+   border: solid white 1px;
+   border-radius: 2rem;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+
+   .animated-scroll {
+      animation-name: arrAnimate;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      position: absolute;
+      top: 10%;
+      background-color: $clr2;
+      width: rem(5px);
+      height: rem(5px);
+      border-radius: 50%;
+   }
 }
 
 .download-link-body {
@@ -123,12 +139,14 @@
 
 @keyframes arrAnimate {
    0% {
-      transform: translateY(30px);
-   }
-   50% {
       transform: translateY(0);
    }
+
+   75% {
+      opacity: 1;
+   }
    100% {
+      opacity: 0;
       transform: translateY(30px);
    }
 }
@@ -153,7 +171,7 @@
       flex-direction: column;
       flex-wrap: wrap;
       padding-block-start: 5rem;
-      .arr-svg {
+      .arrow-border {
          display: none;
       }
    }
