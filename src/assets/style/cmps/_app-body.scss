@@ -54,11 +54,13 @@
                background-color: $clr3;
                z-index: -1;
                transform: scaleX(0);
-               transform-origin: left;
-               transition: transform 300ms ease-in-out;
+               transform: scaleY(0);
+               transform-origin: center;
+               transition: transform 200ms ease-in-out;
             }
             &:hover::before {
                transform: scaleX(1);
+               transform: scaleY(1);
             }
             &:hover {
                color: $clr2;

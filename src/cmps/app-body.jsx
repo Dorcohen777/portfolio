@@ -3,7 +3,6 @@
 import heroImg from '../assets/img/me1.jpg'
 import linkedinImg from '../assets/img/linkedin.png'
 import gitHub from '../assets/img/github.png'
-import arrSvg from '../assets/img/arrsvg.svg'
 import cv from '../assets/cv.docx'
 import { motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
@@ -71,12 +70,12 @@ export function AppBody() {
                   Hey, i'm Dor.
                </motion.h1>
 
-               <motion.h2
+               {/* <motion.h2
                   initial={{ opacity: 0, x: -80 }}
                   animate={{ opacity: 1, x: 0, transition: { delay: 0.6 } }}
                >
-                  Full-Stack Web Developer
-               </motion.h2>
+                  Full-Stack Web Developer & Digital marketing 
+               </motion.h2> */}
 
                <div className='hero-text-container'>
                   <motion.p
@@ -147,7 +146,6 @@ export function AppBody() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { delay: 3 } }}
          >
-            {/* <img src={arrSvg} alt='arrSvg' className='arr-svg animate-arrow' /> */}
             <div className='animate-arrow-container arrow-border'>
                <div className='animated-scroll'></div>
             </div>
