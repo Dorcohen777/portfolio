@@ -53,6 +53,7 @@ export function AppBody() {
    const textLeave = () => setCursorVariant('default')
    const onButtons = () => setCursorVariant('buttons')
    const onLeaveButtons = () => setCursorVariant('default')
+   
    return (
       <section className='hero-container' id='about'>
          <motion.div
@@ -80,7 +81,7 @@ export function AppBody() {
                <div className='hero-text-container'>
                   <motion.p
                      initial={{ opacity: 0, y: 50 }}
-                     animate={{ opacity: 1, y: 0, transition: { delay: 0.9 } }}
+                     animate={{ opacity: 1, y: 0, transition: { delay: 0.6 } }}
                   >
                      I specialize in website development with advanced
                      technologies and programming languages, digital marketing,
@@ -89,7 +90,7 @@ export function AppBody() {
                   <br />
                   <motion.p
                      initial={{ opacity: 0, y: 100 }}
-                     animate={{ opacity: 1, y: 0, transition: { delay: 1.2 } }}
+                     animate={{ opacity: 1, y: 0, transition: { delay: 0.9 } }}
                   >
                      Collaborative team player with excellent technical
                      abilities, emphasis on the small details, focusing on
@@ -103,7 +104,7 @@ export function AppBody() {
                onMouseEnter={onButtons}
                onMouseLeave={onLeaveButtons}
                initial={{ opacity: 0, y: 20 }}
-               animate={{ opacity: 1, y: 0, transition: { delay: 1.5 } }}
+               animate={{ opacity: 1, y: 0, transition: { delay: 1.2 } }}
             >
                <button className='cv-btn pointer'>
                   <a
@@ -116,6 +117,7 @@ export function AppBody() {
                <a
                   target='_blank'
                   href='https://www.linkedin.com/in/dor-cohen-618745225/'
+                  rel='noreferrer'
                >
                   <img
                      className='pointer'
@@ -124,7 +126,7 @@ export function AppBody() {
                      alt='linkedin-logo'
                   />
                </a>
-               <a target='_blank' href='https://github.com/Dorcohen777'>
+               <a target='_blank' href='https://github.com/Dorcohen777' rel='noreferrer'>
                   <img
                      className='pointer'
                      title='GitHub'
